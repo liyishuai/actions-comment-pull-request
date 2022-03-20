@@ -13,5 +13,5 @@ jobs:
       - uses: JamesIves/github-pages-deploy-action@releases/v4
         if: github.event_name == 'push' && github.ref_name == 'main'
         with:
-          branch: main
+          branch: release
           folder: .
